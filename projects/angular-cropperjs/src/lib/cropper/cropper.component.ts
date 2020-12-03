@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ElementRef, ViewChild, Input, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewEncapsulation, ElementRef, ViewChild, Input, EventEmitter, Output } from '@angular/core';
 import Cropper from 'cropperjs';
 
 export interface ImageCropperSetting {
@@ -21,7 +21,7 @@ export interface ImageCropperResult {
 })
 export class CropperComponent implements OnInit, OnDestroy {
 
-    @ViewChild('image') image: ElementRef;
+    @ViewChild('image', { read: ElementRef, static: true }) image: ElementRef;
 
     @Input() imageUrl: any;
     @Input() settings: ImageCropperSetting;
@@ -39,10 +39,9 @@ export class CropperComponent implements OnInit, OnDestroy {
 
     constructor() { }
 
-    ngOnInit() {
-    }
-    
-    ngOnDestroy() {
+    public ngOnInit(): void {}
+
+    public ngOnDestroy(): void {
       if(this.cropper) {
         this.cropper.destroy();
         this.cropper = null;
@@ -53,7 +52,7 @@ export class CropperComponent implements OnInit, OnDestroy {
      * Image loaded
      * @param ev
      */
-    imageLoaded(ev: Event) {
+    public imageLoaded(ev: Event): void {
 
         //
         // Unset load error state
@@ -66,7 +65,9 @@ export class CropperComponent implements OnInit, OnDestroy {
 
         //
         // Add crossOrigin?
-        if (this.cropperOptions.checkCrossOrigin) image.crossOrigin = 'anonymous';
+        if (this.cropperOptions.checkCrossOrigin) {
+            image.crossOrigin = 'anonymous';
+        }
 
         //
         // Image on ready event
@@ -122,7 +123,7 @@ export class CropperComponent implements OnInit, OnDestroy {
      * Image load error
      * @param event
      */
-    imageLoadError(event: any) {
+    public imageLoadError(event: any): void {
 
         //
         // Set load error state
@@ -137,7 +138,7 @@ export class CropperComponent implements OnInit, OnDestroy {
      * Export canvas
      * @param base64
      */
-    exportCanvas(base64?: any) {
+    public exportCanvas(base64?: any): void {
 
         //
         // Get and set image, crop and canvas data
