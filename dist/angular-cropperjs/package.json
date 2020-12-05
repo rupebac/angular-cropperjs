@@ -1,0 +1,45 @@
+{
+  "name": "angular-cropperjs",
+  "description": "CropperJS integration for Angular +6",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheusdavidson/angular-cropperjs"
+  },
+  "author": {
+    "name": "Matheus Davidson",
+    "email": "matheusdavidson@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "angular-library",
+    "angular-component",
+    "cropperjs",
+    "cropper",
+    "image"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusdavidson/angular-cropperjs/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "cropperjs": "^1.4.1"
+  },
+  "main": "bundles/angular-cropperjs.umd.js",
+  "module": "fesm2015/angular-cropperjs.js",
+  "es2015": "fesm2015/angular-cropperjs.js",
+  "esm2015": "esm2015/angular-cropperjs.js",
+  "fesm2015": "fesm2015/angular-cropperjs.js",
+  "typings": "angular-cropperjs.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
