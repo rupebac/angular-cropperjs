@@ -1,6 +1,6 @@
 # angular-cropperjs
 
-[CropperJS](https://fengyuanchen.github.io/cropperjs/) integration for Angular 11
+[CropperJS](https://fengyuanchen.github.io/cropperjs/) integration for Angular 12
 
 ## How to use
 
