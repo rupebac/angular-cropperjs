@@ -1,10 +1,10 @@
 {
   "name": "angular-cropperjs",
-  "description": "CropperJS integration for Angular +6",
+  "description": "CropperJS integration for Angular +12",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matheusdavidson/angular-cropperjs"
+    "url": "https://github.com/rupebac/angular-cropperjs"
   },
   "author": {
     "name": "Matheus Davidson",
@@ -22,12 +22,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matheusdavidson/angular-cropperjs/issues"
+    "url": "https://github.com/rupebac/angular-cropperjs/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^11.0.0",
-    "@angular/core": "^11.0.0",
-    "cropperjs": "^1.4.1"
+    "@angular/common": "^12.2.13",
+    "@angular/core": "^12.2.13",
+    "cropperjs": "^1.5.6"
   },
   "main": "bundles/angular-cropperjs.umd.js",
   "module": "fesm2015/angular-cropperjs.js",
