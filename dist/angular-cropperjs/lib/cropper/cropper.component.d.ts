@@ -42,6 +42,6 @@ export declare class CropperComponent implements OnInit, OnDestroy {
      * @param base64
      */
     exportCanvas(base64?: any): void;
-    static ɵfac: i0.ɵɵFactoryDef<CropperComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDefWithMeta<CropperComponent, "angular-cropper", never, { "imageUrl": "imageUrl"; "settings": "settings"; "cropbox": "cropbox"; "loadImageErrorText": "loadImageErrorText"; "cropperOptions": "cropperOptions"; }, { "export": "export"; "ready": "ready"; }, never, never>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<CropperComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CropperComponent, "angular-cropper", never, { "imageUrl": "imageUrl"; "settings": "settings"; "cropbox": "cropbox"; "loadImageErrorText": "loadImageErrorText"; "cropperOptions": "cropperOptions"; }, { "export": "export"; "ready": "ready"; }, never, never>;
 }
