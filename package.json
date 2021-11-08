@@ -19,7 +19,7 @@
     "image"
   ],
   "files": [
-    "/dist"
+    "/dist/angular-cropperjs"
   ],
   "license": "MIT",
   "bugs": {
