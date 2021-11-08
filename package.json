@@ -18,7 +18,12 @@
     "cropper",
     "image"
   ],
-  "files": ["dist/*.js", "dist/**/*.js"],
+  "files": [
+      "dist/*.js",
+      "dist/*.d.ts",
+      "dist/**/*.js",
+      "dist/**/*.d.ts"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/matheusdavidson/angular-cropperjs/issues"
