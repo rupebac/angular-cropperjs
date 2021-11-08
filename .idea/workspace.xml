@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7cf7362-72c3-4d97-a618-6904553141c6" name="Changes" comment="fixing files">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/angular-cropperjs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/bundles/angular-cropperjs.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/bundles/angular-cropperjs.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/esm2015/angular-cropperjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/esm2015/lib/angular-cropperjs.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/esm2015/lib/angular-cropperjs.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/esm2015/lib/cropper/cropper.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/esm2015/public_api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/fesm2015/angular-cropperjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/fesm2015/angular-cropperjs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/lib/angular-cropperjs.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/lib/angular-cropperjs.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/lib/cropper/cropper.component.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/angular-cropperjs/public_api.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/ng-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/ng-package.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/angular-cropperjs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/angular-cropperjs.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/angular-cropperjs.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/cropper/cropper.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/cropper/cropper.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/cropper/cropper.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/lib/cropper/cropper.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/public_api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/tsconfig.lib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-cropperjs/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20VYgpeuQvxrhOpO4bg2jgcwmQY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (angular-cropperjs-app-e2e)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7cf7362-72c3-4d97-a618-6904553141c6" name="Changes" comment="" />
+      <created>1636131336653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636131336653</updated>
+      <workItem from="1636131340950" duration="394000" />
+      <workItem from="1636132028767" duration="671000" />
+      <workItem from="1636368229688" duration="47000" />
+      <workItem from="1636368466966" duration="1752000" />
+      <workItem from="1636370453569" duration="5281000" />
+    </task>
+    <task id="LOCAL-00001" summary="updating it to angular 12">
+      <created>1636131721224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636131721224</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updating dist">
+      <created>1636370227015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636370227015</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixing angular to 12, updating cropperjs to 1.5.6">
+      <created>1636371054376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636371054376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixing files">
+      <created>1636371694316</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636371694316</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixing files">
+      <created>1636371888312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636371888312</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixing files">
+      <created>1636373389401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636373389401</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixing files">
+      <created>1636373727683</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636373727683</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updating it to angular 12" />
+    <MESSAGE value="updating dist" />
+    <MESSAGE value="fixing angular to 12, updating cropperjs to 1.5.6" />
+    <MESSAGE value="fixing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing files" />
+  </component>
+</project>
